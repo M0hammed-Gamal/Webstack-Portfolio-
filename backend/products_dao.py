@@ -1,6 +1,6 @@
 from sql_connection import get_sql_connection
 
-def get_all_products(connection):
+def get_all_product(connection):
     cursor = connection.cursor()
     query = ("select product.product_id, product.name, product.uom_id, product.price_per_unit, uom.uom_name from product inner join uom on product.uom_id=uom.uom_id")
     cursor.execute(query)
@@ -17,7 +17,7 @@ def get_all_products(connection):
 
 def insert_new_product(connection, product):
     cursor = connection.cursor()
-    query = ("INSERT INTO products "
+    query = ("INSERT INTO product "
              "(name, uom_id, price_per_unit)"
              "VALUES (%s, %s, %s)")
     data = (product['product_name'], product['uom_id'], product['price_per_unit'])
@@ -28,9 +28,10 @@ def insert_new_product(connection, product):
     return cursor.lastrowid
 
 
+
 if __name__ == '__main__':
     connection = get_sql_connection()
-      # print(get_all_products(connection))
+    # print(get_all_product(connection))
     print(insert_new_product(connection, {
         'product_name': 'potatoes',
         'uom_id': '1',
