@@ -1,6 +1,6 @@
 from sql_connection import get_sql_connection
 
-def get_all_product(connection):
+def get_all_products(connection):
     cursor = connection.cursor()
     query = ("select product.product_id, product.name, product.uom_id, product.price_per_unit, uom.uom_name from product inner join uom on product.uom_id=uom.uom_id")
     cursor.execute(query)
