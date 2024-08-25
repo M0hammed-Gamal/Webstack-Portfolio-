@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSMS</title>
+
+    <!-- Bootstrap CSS (CDN) -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-pzjw8f+ua7Kw1TIqfCTWU9vA5xrLA5qlAU6nd+83mcjoO8p3ilp+eUVD7pRqnFtN" crossorigin="anonymous">
+
+    <!-- FontAwesome (CDN) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMwln6JAhaVb9MEk1WzYluRjAnqU26/FO1W9kqB" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,700">
+
+    <!-- Material Design Iconic Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css">
+
+    <!-- Local CSS Files -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css?v=1.0">
+    <link rel="stylesheet" href="css/sidebar-menu.css?v=1.0">
+    <link rel="stylesheet" href="css/custom.css?v=1.3.3">
+</head>
+
+<body class="tooltips">
+    <div class="container">
+
+        <div class="header content rows-content-header">
+            <button class="button-menu-mobile show-sidebar">
+                    <i class="fa fa-bars"></i>
+                </button>
+            <div class="navbar navbar-default" role="navigation">
+                <div class="container">
+
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav visible-lg visible-md limit-chars">
+                            <ul class="breadcrumb">
+                                <li>
+                                    <a href="index.html">
+                                        <i class="zmdi zmdi-view-dashboard zmdi-hc-fw" title="Orders"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="manage-product.html">
+                                        <i class="zmdi zmdi-assignment zmdi-hc-fw" title="Product"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="right content-page">
+            <div class="body content rows scroll-y">
+                <form class="form-horizontal" action="">
+                    <div class="box-info full" id="taskFormContainer">
+                        <h2>Grocery Store Management System</h2>
+                        <div class="panel-body pt-0">
+                            <div class="row mb-4">
+                                <div class="col-sm-12">
+                                    <a href="order.html" class="btn btn-sm btn-primary pull-right ml-3">
+                                            New Order
+                                        </a>
+                                    <a href="manage-product.html" class="btn btn-sm btn-primary pull-right">
+                                            Manage Product
+
+                                        </a>
+                                </div>
+                            </div>
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Date</th>
+                                        <th>Order Number</th>
+                                        <th>Customer Name</th>
+                                        <th>Total Cost</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- Table rows go here -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </form>
+                <div class="modal" id="userProfileModal" role="dialog">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-body text-center">
+                                <!-- Modal content goes here -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade-scale" id="myModal" role="dialog" data-backdrop="static">
+            <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                    <div class="modal-body text-center">
+                        <img src="https://demo.test.cloint.com/assets/images/spinner.gif" width="40" style="margin: 60px auto;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+    <!-- Popper.js (for Bootstrap 4) -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDuLKNSTFQCrwAijIUz9bGmZ7PvGHU8AB5TS2C5xprJfMfuY60" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap JS (CDN) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgEP7/8J4pmRT7xRzt6qq4tcPD7xzrSkNpp+FZCSGce9igwBkt1" crossorigin="anonymous"></script>
+
+    <!-- Local JS Files -->
+    <script src="js/packages/jquery.min.js"></script>
+    <script src="js/custom/common.js"></script>
+    <script src="js/custom/dashboard.js"></script>
+</body>
+
+</html>

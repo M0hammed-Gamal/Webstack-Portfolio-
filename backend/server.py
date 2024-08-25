@@ -18,9 +18,9 @@ def get_uom():
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
 
-@app.route('/getProducts', methods=['GET'])
-def get_products():
-    response = products_dao.get_all_products(connection)
+@app.route('/getProduct', methods=['GET'])
+def get_product():
+    response = products_dao.get_all_product(connection)
     response = jsonify(response)
     response.headers.add('Access-Control-Allow-Origin', '*')
     return response
