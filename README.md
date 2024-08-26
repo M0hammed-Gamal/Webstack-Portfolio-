@@ -32,12 +32,15 @@ To set up this project on your local machine, follow these steps:
 Clone the repository:
 
 
-git clone https://github.com/your-username/Grocery_Store_Management_System_webapp.git
-cd Grocery_Store_Management_System_webapp
+git clone https://github.com/M0hammed-Gamal/Webstack-Portfolio-.git
+
+cd Webstack-Portfolio-
 Install the required dependencies: Make sure you have Python and pip installed, then run:
 
 pip install mysql-connector-python
+
 pip install flask
+
 Configure the MySQL database:
 
 Install MySQL and set up a new database.
@@ -48,14 +51,16 @@ flask run
 
 Access the application: Open your web browser and go to http://127.0.0.1:5000/ to view the application.
 
-Usage
-Login: Access the system by logging in with your credentials.
+UsageLogin:
+
+ Access the system by logging in with your credentials.
 Dashboard: View a summary of store operations, including inventory levels and sales data.
 Manage Inventory: Add, update, or delete products in your inventory.
 Process Orders: View and manage customer orders efficiently.
 Generate Reports: Create sales and inventory reports for detailed analysis.
 
 Contributing
+
 We welcome contributions to improve this project! Please fork the repository and create a pull request with your changes. Ensure your code follows the established style guidelines and includes appropriate tests.
 
 
