@@ -55,8 +55,11 @@ UsageLogin:
 
  Access the system by logging in with your credentials.
 Dashboard: View a summary of store operations, including inventory levels and sales data.
+
 Manage Inventory: Add, update, or delete products in your inventory.
+
 Process Orders: View and manage customer orders efficiently.
+
 Generate Reports: Create sales and inventory reports for detailed analysis.
 
 Contributing
