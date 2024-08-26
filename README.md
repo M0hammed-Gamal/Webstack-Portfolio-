@@ -8,6 +8,8 @@ Backend: Python and Flask
 Database: mysql
 
 <img src="https://github.com/M0hammed-Gamal/Webstack-Portfolio-/blob/main/homepage.jpg" width="1048">
+<img src="https://github.com/M0hammed-Gamal/Webstack-Portfolio-/blob/main/Building Str.jpg" width="1048">
+<img src="https://github.com/M0hammed-Gamal/Webstack-Portfolio-/blob/main/dp.jpg" width="1048">
 
 pip install mysql-connector-python
 
