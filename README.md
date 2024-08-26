@@ -9,8 +9,6 @@ Database: mysql
 
 <img src="https://github.com/M0hammed-Gamal/Webstack-Portfolio-/blob/main/homepage.jpg" width="1048">
 
-Installation Instructions
-Download mysql for windows: https://dev.mysql.com/downloads/installer/
 pip install mysql-connector-python
 
 BY:
