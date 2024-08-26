@@ -7,7 +7,7 @@ Front end: UI is written in HTML/CSS/Javascript/Bootstrap
 Backend: Python and Flask
 Database: mysql
 
-<img src="https://github.com/M0hammed-Gamal/Webstack-Portfolio-/blob/main/homepage.jpg" width="60">
+<img src="https://github.com/M0hammed-Gamal/Webstack-Portfolio-/blob/main/homepage.jpg" width="1048">
 
 Installation Instructions
 Download mysql for windows: https://dev.mysql.com/downloads/installer/
